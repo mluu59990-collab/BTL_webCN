@@ -1,0 +1,278 @@
+ĐẶC TẢ HỆ THỐNG WEBSITE QUẢN LÝ BÁN GIÀY ĐÁ BÓNG
+1. Giới thiệu hệ thống
+
+Website quản lý bán giày đá bóng là hệ thống được xây dựng nhằm hỗ trợ cửa hàng hoặc doanh nghiệp kinh doanh giày đá bóng quản lý toàn bộ quy trình bán hàng trên môi trường trực tuyến. Hệ thống không chỉ phục vụ hoạt động trưng bày và bán sản phẩm cho khách hàng mà còn hỗ trợ quản trị viên theo dõi hàng hóa, đơn hàng, khách hàng, doanh thu, khuyến mãi và tồn kho một cách hiệu quả.
+
+Mục tiêu của hệ thống là số hóa quy trình kinh doanh, giảm sai sót trong quản lý thủ công, nâng cao trải nghiệm người dùng, đồng thời hỗ trợ ra quyết định kinh doanh dựa trên dữ liệu thực tế.
+
+2. Phạm vi hệ thống
+
+Hệ thống tập trung vào các nghiệp vụ chính gồm: quản lý sản phẩm giày đá bóng, quản lý danh mục, quản lý khách hàng, giỏ hàng, đặt hàng, thanh toán, quản lý đơn hàng, quản lý tồn kho, quản lý khuyến mãi, đánh giá sản phẩm và báo cáo thống kê.
+
+Đối tượng sử dụng hệ thống gồm:
+
+Khách vãng lai
+Khách hàng đã đăng ký tài khoản
+Quản trị viên
+Nhân viên quản lý bán hàng hoặc kho
+3. Tác nhân của hệ thống
+3.1. Khách vãng lai
+
+Là người dùng chưa đăng nhập, có thể truy cập website để xem thông tin sản phẩm, tìm kiếm, lọc sản phẩm và đăng ký tài khoản.
+
+3.2. Khách hàng
+
+Là người dùng đã có tài khoản, có thể đăng nhập, mua hàng, theo dõi đơn hàng, đánh giá sản phẩm, quản lý thông tin cá nhân và lịch sử mua hàng.
+
+3.3. Quản trị viên
+
+Là người có quyền cao nhất trong hệ thống, chịu trách nhiệm quản lý sản phẩm, danh mục, đơn hàng, khách hàng, khuyến mãi, báo cáo doanh thu và phân quyền người dùng.
+
+3.4. Nhân viên
+
+Là người hỗ trợ quản lý đơn hàng, xác nhận giao hàng, cập nhật tồn kho, xử lý đổi trả và chăm sóc khách hàng tùy theo quyền được cấp.
+
+4. Đặc tả chức năng chính
+4.1. Chức năng quản lý tài khoản
+
+Hệ thống cần cho phép người dùng đăng ký tài khoản bằng email, số điện thoại hoặc tài khoản mạng xã hội nếu tích hợp. Người dùng sau khi đăng ký có thể đăng nhập, đăng xuất, đổi mật khẩu, quên mật khẩu và cập nhật thông tin cá nhân.
+
+Yêu cầu chi tiết:
+Đăng ký tài khoản
+Đăng nhập, đăng xuất
+Quên mật khẩu, đặt lại mật khẩu
+Cập nhật hồ sơ cá nhân
+Quản lý địa chỉ nhận hàng
+Xem lịch sử mua hàng
+Khóa hoặc mở tài khoản người dùng đối với admin
+4.2. Chức năng quản lý sản phẩm
+
+Đây là chức năng cốt lõi của hệ thống. Mỗi sản phẩm giày đá bóng cần được quản lý đầy đủ về tên sản phẩm, thương hiệu, loại sân, size, màu sắc, giá bán, số lượng tồn kho, mô tả, hình ảnh và trạng thái kinh doanh.
+
+Thông tin sản phẩm cần quản lý:
+Mã sản phẩm
+Tên giày
+Thương hiệu
+Dòng sản phẩm
+Loại sân: TF, IC, AG, FG, MG
+Size giày
+Màu sắc
+Giá nhập
+Giá bán
+Số lượng tồn kho
+Mô tả chi tiết
+Bộ sưu tập hình ảnh
+Trạng thái: còn hàng, hết hàng, ngừng kinh doanh
+Chức năng cụ thể:
+Thêm sản phẩm mới
+Cập nhật thông tin sản phẩm
+Xóa hoặc ẩn sản phẩm
+Quản lý nhiều biến thể sản phẩm theo size và màu
+Cập nhật số lượng tồn kho
+Hiển thị sản phẩm nổi bật, sản phẩm mới, sản phẩm bán chạy
+4.3. Chức năng quản lý danh mục
+
+Hệ thống cần phân loại sản phẩm để thuận tiện cho tìm kiếm và quản lý. Việc phân loại có thể theo thương hiệu, loại sân, mức giá, giới tính, kích cỡ hoặc chương trình khuyến mãi.
+
+Chức năng cụ thể:
+Quản lý danh mục thương hiệu như Nike, Adidas, Mizuno, Puma
+Quản lý danh mục loại sân
+Quản lý danh mục giá
+Quản lý nhãn sản phẩm như hàng mới, bán chạy, giảm giá
+Gán sản phẩm vào một hoặc nhiều danh mục
+4.4. Chức năng tìm kiếm và lọc sản phẩm
+
+Người dùng cần được hỗ trợ tìm kiếm nhanh sản phẩm phù hợp. Đây là chức năng quan trọng để nâng cao trải nghiệm mua sắm.
+
+Chức năng cụ thể:
+Tìm kiếm theo tên sản phẩm
+Tìm kiếm theo thương hiệu
+Lọc theo loại sân
+Lọc theo size
+Lọc theo màu sắc
+Lọc theo khoảng giá
+Sắp xếp theo giá tăng dần, giảm dần, mới nhất, bán chạy
+4.5. Chức năng giỏ hàng
+
+Giỏ hàng cho phép khách hàng lưu tạm các sản phẩm muốn mua trước khi tiến hành thanh toán.
+
+Chức năng cụ thể:
+Thêm sản phẩm vào giỏ hàng
+Cập nhật số lượng sản phẩm
+Xóa sản phẩm khỏi giỏ hàng
+Kiểm tra tồn kho trước khi xác nhận giỏ hàng
+Tự động tính tổng tiền
+Áp dụng mã giảm giá trong giỏ hàng
+4.6. Chức năng đặt hàng
+
+Sau khi chọn sản phẩm, khách hàng có thể tiến hành đặt hàng. Hệ thống cần ghi nhận đầy đủ thông tin phục vụ quá trình xử lý đơn hàng.
+
+Chức năng cụ thể:
+Nhập thông tin người nhận
+Chọn địa chỉ giao hàng
+Chọn phương thức giao hàng
+Chọn phương thức thanh toán
+Xác nhận đơn hàng
+Sinh mã đơn hàng tự động
+Gửi thông báo đặt hàng thành công
+Thông tin đơn hàng cần lưu:
+Mã đơn hàng
+Thông tin khách hàng
+Danh sách sản phẩm
+Số lượng
+Đơn giá
+Tổng tiền hàng
+Phí vận chuyển
+Giảm giá
+Tổng thanh toán
+Phương thức thanh toán
+Trạng thái đơn hàng
+Thời gian đặt hàng
+
+4.7. Chức năng quản lý đơn hàng
+
+Quản trị viên hoặc nhân viên cần có khả năng xử lý đơn hàng theo từng giai đoạn.
+
+Trạng thái đơn hàng đề xuất:
+Chờ xác nhận
+Đã xác nhận
+Đang chuẩn bị hàng
+Đang giao
+Đã giao thành công
+Đã hủy
+Trả hàng hoặc hoàn hàng
+Chức năng cụ thể:
+Xem danh sách đơn hàng
+Tìm kiếm đơn theo mã đơn hàng, khách hàng, số điện thoại
+Cập nhật trạng thái đơn hàng
+In hóa đơn
+Hủy đơn hàng
+Xử lý yêu cầu đổi trả
+Gửi thông báo thay đổi trạng thái đơn hàng
+4.8. Chức năng quản lý kho và tồn kho
+
+Đối với website bán giày đá bóng, quản lý tồn kho rất quan trọng vì cùng một mẫu giày có nhiều size và màu khác nhau.
+
+Chức năng cụ thể:
+Theo dõi số lượng tồn của từng sản phẩm
+Quản lý tồn kho theo size và màu
+Cảnh báo sắp hết hàng
+Cập nhật nhập hàng mới
+Trừ kho tự động sau khi đơn hàng được xác nhận hoặc giao thành công
+Thống kê sản phẩm bán chạy và sản phẩm tồn lâu
+
+
+4.9. Chức năng quản lý khách hàng
+
+Quản trị viên cần có khả năng theo dõi thông tin khách hàng để phục vụ chăm sóc và marketing.
+
+Chức năng cụ thể:
+Xem danh sách khách hàng
+Theo dõi số lượng đơn hàng của từng khách
+Theo dõi tổng chi tiêu
+Phân loại khách hàng thân thiết
+Gửi email hoặc thông báo khuyến mãi
+Khóa tài khoản nếu phát hiện hành vi bất thường
+4.10. Chức năng báo cáo và thống kê
+
+Đây là chức năng hỗ trợ quản lý và ra quyết định kinh doanh.
+
+Báo cáo cần có:
+Doanh thu theo ngày, tuần, tháng, năm
+Số lượng đơn hàng theo thời gian
+Sản phẩm bán chạy
+Sản phẩm tồn kho nhiều
+Tỷ lệ hủy đơn
+Tỷ lệ hoàn trả
+Doanh thu theo thương hiệu
+Khách hàng mua nhiều nhất
+4.11. Chức năng quản trị hệ thống
+
+Đây là nhóm chức năng dành cho admin nhằm kiểm soát toàn bộ hoạt động của hệ thống.
+
+Chức năng cụ thể:
+Quản lý tài khoản admin và nhân viên
+Phân quyền người dùng
+Quản lý banner, giao diện trang chủ
+Quản lý nội dung website
+Sao lưu dữ liệu
+Nhật ký hoạt động hệ thống
+Cấu hình vận chuyển, thanh toán, liên hệ
+5. Yêu cầu phi chức năng
+5.1. Hiệu năng
+
+Hệ thống cần phản hồi nhanh, thời gian tải trang ở mức chấp nhận được, đặc biệt với các trang danh sách sản phẩm, giỏ hàng và thanh toán.
+
+5.2. Bảo mật
+
+Hệ thống cần mã hóa mật khẩu, bảo vệ thông tin khách hàng, hạn chế truy cập trái phép, phân quyền rõ ràng giữa admin, nhân viên và khách hàng.
+
+5.3. Tính sẵn sàng
+
+Website cần hoạt động ổn định, hạn chế lỗi hệ thống và đảm bảo khả năng truy cập liên tục.
+
+5.4. Khả năng mở rộng
+
+Hệ thống cần dễ nâng cấp để bổ sung thêm sản phẩm, tính năng, phương thức thanh toán hoặc tích hợp vận chuyển trong tương lai.
+
+5.5. Tính thân thiện người dùng
+
+Giao diện cần trực quan, dễ sử dụng, hỗ trợ tốt trên máy tính và điện thoại.
+
+6. Các thực thể dữ liệu chính
+
+Hệ thống có thể gồm các bảng dữ liệu hoặc đối tượng chính như sau:
+
+Người dùng
+Khách hàng
+Nhân viên
+Sản phẩm
+Danh mục
+Thương hiệu
+Biến thể sản phẩm
+Giỏ hàng
+Đơn hàng
+Chi tiết đơn hàng
+Thanh toán
+Khuyến mãi
+Đánh giá
+Kho hàng
+Báo cáo
+7. Quy trình nghiệp vụ cơ bản
+7.1. Quy trình mua hàng
+
+Khách hàng truy cập website, tìm kiếm sản phẩm, xem chi tiết giày, chọn size và màu phù hợp, thêm vào giỏ hàng, nhập thông tin nhận hàng, lựa chọn phương thức thanh toán, xác nhận đơn hàng và theo dõi trạng thái giao hàng.
+
+7.2. Quy trình quản trị đơn hàng
+
+Sau khi khách đặt hàng, hệ thống ghi nhận đơn hàng ở trạng thái chờ xác nhận. Nhân viên hoặc admin kiểm tra tồn kho, xác nhận đơn, chuẩn bị hàng, bàn giao cho đơn vị vận chuyển và cập nhật trạng thái đến khi hoàn tất.
+
+7.3. Quy trình quản lý tồn kho
+
+Khi có sản phẩm mới nhập về, admin cập nhật số lượng trong kho. Khi đơn hàng được xử lý, hệ thống tự động trừ kho tương ứng theo từng size và màu. Nếu số lượng xuống thấp hơn ngưỡng quy định, hệ thống sẽ gửi cảnh báo.
+
+8. Chức năng nên ưu tiên nếu làm đồ án
+
+Nếu làm đồ án web bán giày đá bóng, em nên ưu tiên các chức năng sau để vừa đủ mạnh vừa không quá nặng:
+
+Đăng ký, đăng nhập
+Quản lý sản phẩm
+Tìm kiếm và lọc sản phẩm
+Giỏ hàng
+Đặt hàng
+Quản lý đơn hàng
+Quản lý tồn kho
+Báo cáo doanh thu cơ bản
+Phân quyền admin và khách hàng
+9. Đề xuất chức năng nâng cao
+
+Nếu muốn hệ thống nổi bật hơn, có thể bổ sung:
+
+Chat hỗ trợ khách hàng
+Gợi ý sản phẩm theo hành vi mua sắm
+So sánh nhiều sản phẩm
+Tích điểm thành viên
+Theo dõi size đã mua trước đó
+Tích hợp bản đồ giao hàng
+Kết nối đơn vị vận chuyển
+Dashboard trực quan bằng biểu đồ
